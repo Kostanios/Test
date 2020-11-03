@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.showButton{
+    position: absolute;
+    top: 0;
+}
+
+.langFooter{
+    margin-bottom: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logoNavigate{
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.langBlock{
+  display: flex;
+  width: 140px;
+  flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    max-width: 418px;
+}
+
+.langPanel{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+.langLabel{
+    font-weight: 300;
+}
+
+.currentLang{
+  margin-left: 13px;
+  margin-right: 8px;
+}
+
+.footer div{
+  cursor: pointer;
+  margin-right: 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: Commissioner;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navigateLine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 66%;
+}
